@@ -11,7 +11,7 @@ const GroceryItem = (props) => {
   return (
       <>
       <div className="main">
-        <img src={props.img}/>
+        <img src={props.img} alt="nothing"/>
         <p className="title">{props.title}</p>
         <div className="both">
         <p>{props.price}</p>
